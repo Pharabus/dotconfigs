@@ -1,7 +1,7 @@
 return {
     {
         "nicholasmata/nvim-dap-cs",
-        dependencies = {"mmfussenegger/nvim-dap"},
+        dependencies = {"mfussenegger/nvim-dap"},
         config = function ()
            require('dap-cs').setup({
               dap_configurations = {
